@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="social-icon">
             <a href="#" target='blank'><img src={navIcon1} alt="Icon" /></a>
             <a href="https://github.com/bavic9"><img src={navIcon2} alt="Icon" /></a>
-            <a href="#" target='blank'><img src={navIcon3} alt="Icon" /></a>
+            <a href="https://twitter.com/bavic_" target='blank'><img src={navIcon3} alt="Icon" /></a>
           </div>
           <p>Copyright 2022. All Rights Reserved</p>
         </div>

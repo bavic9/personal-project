@@ -26,17 +26,17 @@ const Projects = () => {
         },
         {
           title: "Simply Recipe",
-          icon:  <a href="https://simply-recipe.adeyeyeadebayo.repl.co/index.html" target='blank'><FaLink/></a>,
+          icon:  <a href="https://simply-recipes-mu.vercel.app/" target='blank'><FaLink/></a>,
           imgUrl: simplyRecipe,
         },
         {
           title: "Ecommerce Page",
-          icon:  <a href="https://e-commerce.adeyeyeadebayo.repl.co/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://ecommerce-iota-fawn.vercel.app/" target='blank'><FaLink/></a>,
           imgUrl: ecom,
         },
         {
           title: "Loop Studio",
-          icon:  <a href="https://loopstudios-landing-page.adeyeyeadebayo.repl.co/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://loop-studio-phi.vercel.app/" target='blank'><FaLink/></a>,
           imgUrl: loopstudio,
         },
         {

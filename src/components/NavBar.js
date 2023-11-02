@@ -60,7 +60,7 @@ const NavBar = () => {
           <div className="social-icon">
             <a href="#" target='blank'><img src={navIcon1} alt="" /></a>
             <a href="https://github.com/bavic9" target='blank'><img className='nav-img2' src={navIcon2} alt="" /></a>
-            <a href="https://twitter.com/bavic_" target='blank'><img src={navIcon3} alt="" /></a>
+            <a href="#" target='blank'><img src={navIcon3} alt="" /></a>
           </div>
           <div>
             <button className="vvd"><span>Let’s Connect</span></button>

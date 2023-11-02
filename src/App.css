@@ -334,7 +334,7 @@ span.navbar-text {
 
 /************ banner ************/
 .banner {
-  margin-top: 0rem;
+  margin-top: -5rem;
   padding: 260px 0 100px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
@@ -359,7 +359,8 @@ span.navbar-text {
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 1rem;
-  height: 100px;
+  height: fit-content !important;
+  width: 100% !important;
   display: block;
 }
 
@@ -555,7 +556,9 @@ border-right: 0.08em solid #666;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  height: 230px;
+  height: 220px;
+  width: 95%;
+  margin: 10px;
 }
 .proj-imgbx::before {
   content: "";
@@ -628,6 +631,7 @@ border-right: 0.08em solid #666;
 	font-size: 45px;
 	font-weight: 700;
   margin-bottom: 30px;
+  margin-left: 1rem;
 }
 .contact form input, .contact form textarea {
   width: 100%;

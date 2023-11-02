@@ -30,7 +30,7 @@ const Banner = () => {
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
-    let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+    let updatedText = isDeleting ? fullText.substring(0, text.length - 0) : fullText.substring(0, text.length + 1);
 
     setText(updatedText);
 
@@ -57,11 +57,11 @@ const Banner = () => {
   return (
     <section className='banner' id='home'>
         <div className='container'>
-            <div className='row align-items-center'>
+            <div className='row align-items-center mx-2'>
                 <div className='col-xs-12 col-md-6 col-xl-7'>
                   <TrackVisibility>
                   {({ isVisible }) =>
-                    <div className={isVisible ? "animate__animated animate__fadeInLeft animate__delay-0.5s animate__repeat-1" : ""}>
+                    <div className={isVisible ? "animate__animated animate__fadeInLeft animate__delay-0.5s animate__repeat-1 animate__slow" : ""}>
                       <span className='tagline'>Welcome to my Portfolio</span>
                     </div>
                   }
@@ -69,21 +69,21 @@ const Banner = () => {
 
                   <TrackVisibility>
                   {({ isVisible }) =>
-                      <h1 className={isVisible ? "animate__animated animate__fadeInLeft animate__delay-1s" : ""}>{"Hi I'm Adebayo a "} <span className='wrap'>{text}</span></h1>
+                      <h1 className={isVisible ? "animate__animated animate__backInUp animate__delay-0.5s animate__faster" : ""}>{"Hi I'm Adebayo a "} <span className='wrap'>{text}</span></h1>
                   }
                   </TrackVisibility>
                   <TrackVisibility>
                   {({ isVisible }) =>
-                      <p className={isVisible ? "animate__animated animate__fadeInLeft animate__delay-2s" : ""}>I'm a multitalented human with over a year of experiences in wide range of Front end developing. I love structure and order and I stand for quality. I'm passionate about creating interactive applications and experiences on the web.</p>
+                      <p className={isVisible ? "animate__animated animate__fadeIn animate__delay-2s animate__slow" : ""}>I'm a multitalented human with over a year of experiences in wide range of Front end developing. I love structure and order and I stand for quality. I'm passionate about creating interactive applications and experiences on the web.</p>
                   }
                   </TrackVisibility>
                   <TrackVisibility>
                   {({ isVisible }) =>
-                      <button className={isVisible ? "animate__animated animate__backInUp animate__delay-3s" : ""} onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
+                      <button className={isVisible ? "animate__animated animate__backInUp animate__delay-2s animate__fast" : ""} onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
                   }
                   </TrackVisibility>
                 </div> 
-                <div className='col-xs-12 col-md-6 col-xl-5'>
+                <div className='col-xs-12 col-md-6 col-xl-5 mt-4'>
                     <img className='headerImg' src={headerImg} alt='header img'/>
                 </div>
             </div>

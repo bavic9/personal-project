@@ -132,7 +132,7 @@ const Projects = () => {
                           <button className={activeLink === 'tab2' ? 'nav-link active' : 'nav-link'} eventKey="second" onClick={()=> { updateToggle(2); onUpdateActiveLink('tab2') }}>Recent</button>
                         </li>
                         <li className='nav-item'>
-                          <button className={activeLink === 'tab3' ? 'nav-link active' : 'nav-link'} eventKey="third" onClick={()=> { updateToggle(3); onUpdateActiveLink('tab3') }}>HTML & CSS</button>
+                          <button className={activeLink === 'tab3' ? 'nav-link active' : 'nav-link'} eventKey="third" onClick={()=> { updateToggle(3); onUpdateActiveLink('tab3') }}>Previous</button>
                         </li>
                       </ul>
                       <div className="tab-content" id="slideInUp">

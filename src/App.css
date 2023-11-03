@@ -556,7 +556,7 @@ border-right: 0.08em solid #666;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  height: 220px;
+  height: 190px;
   width: 95%;
   margin: 10px;
 }
@@ -697,24 +697,24 @@ border-right: 0.08em solid #666;
 .contact form .success{
   background-color: rgb(48, 168, 48);
   color: #FFFFFF;
-  width: 200px;
+  width: 80%;
   margin: 2rem 0;
-  padding: 5px 0;
+  padding: 5px 2px;
   border-radius: 10px;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 500;
   transition: 0.3s ease-in-out;
 }
 .unsuccessfull{
   background-color: rgb(168, 48, 48);
   color: #FFFFFF;
-  width: 400px;
+  width: 90%;
   margin: 2rem 0;
-  padding: 5px 0;
+  padding: 5px 2px;
   border-radius: 10px;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 500;
   transition: 0.3s ease-in-out;
 }

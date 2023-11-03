@@ -69,7 +69,7 @@ const Banner = () => {
 
                   <TrackVisibility>
                   {({ isVisible }) =>
-                      <h1 className={isVisible ? "animate__animated animate__backInUp animate__delay-0.5s animate__faster" : ""}>{"Hi I'm Adebayo a "} <span className='wrap'>{text}</span></h1>
+                      <h1 className={isVisible ? "animate__animated animate__backInUp animate__delay-1s animate__fast" : ""}>{"Hi I'm Adebayo a "} <span className='wrap'>{text}</span></h1>
                   }
                   </TrackVisibility>
                   <TrackVisibility>

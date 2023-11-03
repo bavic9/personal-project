@@ -76,7 +76,7 @@ const Contact = () => {
                                         <input type="email" name="user_email" value={formDetails.email} placeholder="Email Address" required onChange={(e) => onFormUpdate('email', e.target.value)} />
                                     </div>
                                     <div className=" col-12 col-sm-6 px-1 my-1">
-                                        <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
+                                        <input type="tel" name='phone' value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
                                     </div>
                                     <div className="col-12 px-1 my-1">
                                         <textarea rows="6" name="message" value={formDetails.message} placeholder="Message" required onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>

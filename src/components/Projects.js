@@ -8,9 +8,10 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import getlinked from '../assets/img/getlinked-img.jpg'
 import loopstudio from '../assets/img/loopstudio landing page.jpg'
 import ecom from '../assets/img/ecommerce-product-page.jpg'
+import estate from '../assets/img/estate.png'
 import simplyRecipe from '../assets/img/Simply-recipe design.jpg'
 import sunnySide from '../assets/img/Sunnyside agency.jpg'
-import airbnb from '../assets/img/airbnb.jpg'
+import manage from '../assets/img/manage.png'
 import { FaLink } from "react-icons/fa";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -25,6 +26,11 @@ const Projects = () => {
           imgUrl: getlinked,
         },
         {
+          title: "Real Estate Page",
+          icon:  <a href="https://real-estate-app-d1f.pages.dev/" target='blank'><FaLink/></a>,
+          imgUrl: estate,
+        },
+        {
           title: "Simply Recipe",
           icon:  <a href="https://simply-recipes-mu.vercel.app/" target='blank'><FaLink/></a>,
           imgUrl: simplyRecipe,
@@ -33,6 +39,11 @@ const Projects = () => {
           title: "Ecommerce Page",
           icon:  <a href="https://ecommerce-iota-fawn.vercel.app/" target='blank'><FaLink/></a>,
           imgUrl: ecom,
+        },
+        {
+          title: "Manage Page",
+          icon:  <a href="#" target='blank'><FaLink/></a>,
+          imgUrl: manage,
         },
         {
           title: "Loop Studio",
@@ -44,45 +55,49 @@ const Projects = () => {
           icon:  <a href="#" target='blank'><FaLink/></a>,
           imgUrl: sunnySide,
         },
-        {
-          title: "Air bnb",
-          icon:  <a href="#" target='blank'><FaLink/></a>,
-          imgUrl: airbnb,
-        },
       ];
 
 
-      const re = [
+      const recent = [
         {
-          title: "Business Startup",
-          icon:  <a href="#"><FaLink/></a>,
-          imgUrl: projImg1,
+          title: "Real Estate Page",
+          icon:  <a href="https://real-estate-app-d1f.pages.dev/" target='blank'><FaLink/></a>,
+          imgUrl: estate,
         },
         {
-          title: "Business Startup",
-          icon:  <a href="#"><FaLink/></a>,
-          imgUrl: projImg2,
+          title: "Manage Page",
+          icon:  <a href="#" target='blank'><FaLink/></a>,
+          imgUrl: manage,
         },
         {
           title: "Business Startup",
           icon:  <a href="#"><FaLink/></a>,
           imgUrl: projImg3,
         },
-        // {
-        //   title: "Business Startup",
-        //   description: "Design & Development",
-        //   imgUrl: projImg1,
-        // },
-        // {
-        //   title: "Business Startup",
-        //   description: "Design & Development",
-        //   imgUrl: projImg2,
-        // },
-        // {
-        //   title: "Business Startup",
-        //   description: "Design & Development",
-        //   imgUrl: projImg3,
-        // },
+      ];
+
+      
+      const previous = [
+        {
+          title: "Loop Studio",
+          icon:  <a href="https://loop-studio-phi.vercel.app/" target='blank'><FaLink/></a>,
+          imgUrl: loopstudio,
+        },
+        {
+          title: "Ecommerce Page",
+          icon:  <a href="https://ecommerce-iota-fawn.vercel.app/" target='blank'><FaLink/></a>,
+          imgUrl: ecom,
+        },
+        {
+          title: "Manage Page",
+          icon:  <a href="#" target='blank'><FaLink/></a>,
+          imgUrl: manage,
+        },
+        {
+          title: "Sunnyside",
+          icon:  <a href="#" target='blank'><FaLink/></a>,
+          imgUrl: sunnySide,
+        },
       ];
 
 
@@ -153,7 +168,7 @@ const Projects = () => {
                         <div className={toggle === 2 ? 'show-content' : 'content'} eventKey="second">
                           <div className='row'>
                               {
-                                re.map((project, index) => {
+                                recent.map((project, index) => {
                                   return (
                                     <ProjectCard
                                       key={index}
@@ -167,7 +182,7 @@ const Projects = () => {
                         <div className={toggle === 3 ? 'show-content' : 'content'} eventKey="third">
                           <div className='row'>
                             {
-                              projects.map((project, index) => {
+                            previous.map((project, index) => {
                                 return (
                                   <ProjectCard
                                     key={index}

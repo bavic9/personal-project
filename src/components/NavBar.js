@@ -58,12 +58,12 @@ const NavBar = () => {
         </div>
         <span className="navbar-text">
           <div className="social-icon">
-            <a href="#" target='blank'><img src={navIcon1} alt="" /></a>
+            <a href="https://www.linkedin.com/in/adeyeye-adebayo-63583b267/" target='blank'><img src={navIcon1} alt="" /></a>
             <a href="https://github.com/bavic9" target='blank'><img className='nav-img2' src={navIcon2} alt="" /></a>
-            <a href="#" target='blank'><img src={navIcon3} alt="" /></a>
+            <a href="https://x.com/bavic_?s=21&t=HVvZ6f8dvZuAlIpWRG2RIg" target='blank'><img src={navIcon3} alt="" /></a>
           </div>
           <div>
-            <button className="vvd"><span>Let’s Connect</span></button>
+            <button className="vvd"><a href='https://drive.google.com/file/d/1qN6LyRDmu-roDcQ_DVYElQSkC5-5n7QY/view?usp=drive_link' target='blank' className='resume'>Resume</a></button>
           </div>
         </span>
         <button className='nav-btn nav-close-btn' onClick={showNavbar}>

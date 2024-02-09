@@ -169,6 +169,11 @@ nav{
 	position: absolute;
 }
 
+.resume{
+  text-decoration: none;
+}
+
+
 span.navbar-text {
     display: flex;
     align-items: center;

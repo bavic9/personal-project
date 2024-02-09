@@ -6,6 +6,7 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import getlinked from '../assets/img/getlinked-img.jpg'
+import taskManager from '../assets/img/taskManager.png'
 import loopstudio from '../assets/img/loopstudio landing page.jpg'
 import ecom from '../assets/img/ecommerce-product-page.jpg'
 import estate from '../assets/img/estate.png'
@@ -20,15 +21,21 @@ import TrackVisibility from 'react-on-screen';
 
 const Projects = () => {
     const projects = [
-        {
-          title: "Getlinked",
-          icon:  <a href="#"><FaLink/></a>,
-          imgUrl: getlinked,
-        },
+        
         {
           title: "Real Estate Page",
           icon:  <a href="https://real-estate-app-d1f.pages.dev/" target='blank'><FaLink/></a>,
           imgUrl: estate,
+        },
+        {
+          title: "Task Manager",
+          icon:  <a href="https://tasks-theta-nine.vercel.app/" target='blank'><FaLink/></a>,
+          imgUrl: taskManager,
+        },
+        {
+          title: "Getlinked",
+          icon:  <a href="#"><FaLink/></a>,
+          imgUrl: getlinked,
         },
         {
           title: "Simply Recipe",
@@ -65,6 +72,11 @@ const Projects = () => {
           imgUrl: estate,
         },
         {
+          title: "Task Manager",
+          icon:  <a href="https://tasks-theta-nine.vercel.app/" target='blank'><FaLink/></a>,
+          imgUrl: taskManager,
+        },
+        {
           title: "Manage Page",
           icon:  <a href="#" target='blank'><FaLink/></a>,
           imgUrl: manage,
@@ -78,6 +90,11 @@ const Projects = () => {
 
       
       const previous = [
+        {
+          title: "Simply Recipe",
+          icon:  <a href="https://simply-recipes-mu.vercel.app/" target='blank'><FaLink/></a>,
+          imgUrl: simplyRecipe,
+        },
         {
           title: "Loop Studio",
           icon:  <a href="https://loop-studio-phi.vercel.app/" target='blank'><FaLink/></a>,

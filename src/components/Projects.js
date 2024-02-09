@@ -49,7 +49,7 @@ const Projects = () => {
         },
         {
           title: "Manage Page",
-          icon:  <a href="#" target='blank'><FaLink/></a>,
+          icon:  <a href="https://manage-coral.vercel.app/" target='blank'><FaLink/></a>,
           imgUrl: manage,
         },
         {
@@ -78,7 +78,7 @@ const Projects = () => {
         },
         {
           title: "Manage Page",
-          icon:  <a href="#" target='blank'><FaLink/></a>,
+          icon:  <a href="https://manage-coral.vercel.app/" target='blank'><FaLink/></a>,
           imgUrl: manage,
         },
         {
@@ -107,7 +107,7 @@ const Projects = () => {
         },
         {
           title: "Manage Page",
-          icon:  <a href="#" target='blank'><FaLink/></a>,
+          icon:  <a href="https://manage-coral.vercel.app/" target='blank'><FaLink/></a>,
           imgUrl: manage,
         },
         {

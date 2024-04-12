@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1ba8f98.css",
-    "main.js": "/static/js/main.fb41ad79.js",
+    "main.css": "/static/css/main.f6dcbc65.css",
+    "main.js": "/static/js/main.5ecd3280.js",
     "static/js/787.32f5e8f0.chunk.js": "/static/js/787.32f5e8f0.chunk.js",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -15,6 +15,7 @@
     "static/media/github.png": "/static/media/github.2c14e9cf317733314a2d.png",
     "static/media/css.png": "/static/media/css.19c8605d6b2861f5fbe0.png",
     "static/media/getlinked-img.jpg": "/static/media/getlinked-img.b63cfc95e95f88406916.jpg",
+    "static/media/stakenet.png": "/static/media/stakenet.b2888ffdcf94890c52e8.png",
     "static/media/Sunnyside agency.jpg": "/static/media/Sunnyside agency.f676005a14ca4aec61a0.jpg",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -38,12 +39,12 @@
     "index.html": "/index.html",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/tailwind.svg": "/static/media/tailwind.973c73e85d4daa24b257ba20298716c4.svg",
-    "main.b1ba8f98.css.map": "/static/css/main.b1ba8f98.css.map",
-    "main.fb41ad79.js.map": "/static/js/main.fb41ad79.js.map",
+    "main.f6dcbc65.css.map": "/static/css/main.f6dcbc65.css.map",
+    "main.5ecd3280.js.map": "/static/js/main.5ecd3280.js.map",
     "787.32f5e8f0.chunk.js.map": "/static/js/787.32f5e8f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1ba8f98.css",
-    "static/js/main.fb41ad79.js"
+    "static/css/main.f6dcbc65.css",
+    "static/js/main.5ecd3280.js"
   ]
 }

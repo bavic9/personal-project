@@ -1,19 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import  html from '../assets/img/html.png'
-import  css from '../assets/img/css.png'
-import  javascript from '../assets/img/javascript.webp'
-import  bootstrap from '../assets/img/bootstrap.png'
-import  react from '../assets/img/react.png'
-import  nextJs from '../assets/img/nextJs.png'
-import  figma from '../assets/img/figma.png'
-import  sass from '../assets/img/Sass.png'
-import  tailwind from '../assets/img/tailwind.svg'
-import  wordpress from '../assets/img/wordpress.png'
-import  git from '../assets/img/github.png'
-import  colorSharp from '../assets/img/color-sharp.png'
-import TrackVisibility from 'react-on-screen';
+import html from '../assets/img/html.png'
+import css from '../assets/img/css.png'
+import javascript from '../assets/img/javascript.webp'
+import bootstrap from '../assets/img/bootstrap.png'
+import react from '../assets/img/react.png'
+import nextJs from '../assets/img/nextJs.png'
+import figma from '../assets/img/figma.png'
+import sass from '../assets/img/Sass.png'
+import tailwind from '../assets/img/tailwind.svg'
+import wordpress from '../assets/img/wordpress.png'
+import git from '../assets/img/github.png'
+import colorSharp from '../assets/img/color-sharp.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
@@ -40,21 +41,21 @@ const Skils = () => {
     }
   };
 
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
+
 
 
   return (
     <section className="skill" id="skills">
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
 
-              <TrackVisibility>
-              {({ isVisible }) =>
-                <h2 className={isVisible ? "animate__animated animate__flipInY animate__delay-0.5s" : ""}>Skills</h2>
-              }
-              </TrackVisibility>
-             
+              <h2>Skills</h2>
+
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
                   <img src={html} alt="Image" />
@@ -69,7 +70,7 @@ const Skils = () => {
                   <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <img src={tailwind } alt="Image" />
+                  <img src={tailwind} alt="Image" />
                   <h5>Tailwind</h5>
                 </div>
                 <div className="item">
@@ -100,7 +101,7 @@ const Skils = () => {
                   <img src={figma} alt="Image" />
                   <h5>figma</h5>
                 </div>
-                
+
               </Carousel>
             </div>
           </div>
@@ -113,4 +114,3 @@ const Skils = () => {
 
 export default Skils
 
-                

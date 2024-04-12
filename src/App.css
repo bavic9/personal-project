@@ -79,7 +79,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 @media (min-width:1700px) {
-	main .container {
+	main  {
 		max-width: 100%;
 		padding: 0 150px;
 	}
@@ -172,6 +172,7 @@ nav{
 .resume{
   text-decoration: none;
 }
+
 
 
 span.navbar-text {
@@ -399,7 +400,7 @@ span.navbar-text {
 }
 
 .banner img {
-  animation: updown 3s linear infinite;
+  animation: updown 8s linear infinite;
 }
 
 @keyframes updown {
@@ -428,7 +429,22 @@ border-right: 0.08em solid #666;
   .headerImg{
     margin-top: 4rem;
   }
+
+  @keyframes updown {
+    0% {
+        transform: translateX(-20px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+  }
+  
 }
+
+
 
 
 /************ Skills Css ************/
@@ -561,9 +577,12 @@ border-right: 0.08em solid #666;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  height: 190px;
+  /* height: 200px; */
   width: 95%;
   margin: 10px;
+}
+.imgcard{
+  height: 200px;
 }
 .proj-imgbx::before {
   content: "";
@@ -580,19 +599,23 @@ border-right: 0.08em solid #666;
 .proj-txtx {
   position: absolute;
   text-align: center;
-  top: 65%;
+  top: 0;
   left: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2rem;
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
 }
 .proj-imgbx:hover .proj-txtx {
-  top: 50%;
+  top: 60%;
   opacity: 1;
 }
 .proj-txtx h4 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
@@ -605,12 +628,21 @@ border-right: 0.08em solid #666;
 }
 
 .proj-txtx span a{
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
 }
 
 .proj-txtx span a:hover{
   color: #B8B8B8;
+}
+
+.proj-txtx p{
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+  color: #fff;
+  width: 100%;
 }
 
 .background-image-right {

@@ -13,7 +13,8 @@ import estate from '../assets/img/estate.png'
 import simplyRecipe from '../assets/img/Simply-recipe design.jpg'
 import sunnySide from '../assets/img/Sunnyside agency.jpg'
 import manage from '../assets/img/manage.png'
-import { FaLink } from "react-icons/fa";
+import stakenet from '../assets/img/stakenet.png'
+import { FaExternalLinkAlt } from "react-icons/fa";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -23,68 +24,92 @@ const Projects = () => {
     const projects = [
         
         {
-          title: "Real Estate Page",
-          icon:  <a href="https://real-estate-app-d1f.pages.dev/" target='blank'><FaLink/></a>,
-          imgUrl: estate,
+          title: "Task Manager",
+          icon:  <a href="https://tasks-theta-nine.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
+          imgUrl: taskManager,
+          content: 'React, Typescript, Tailwind Css'
         },
         {
-          title: "Task Manager",
-          icon:  <a href="https://tasks-theta-nine.vercel.app/" target='blank'><FaLink/></a>,
-          imgUrl: taskManager,
+          title: "StakeNet",
+          icon:  <a href="https://cryptoapp-olive.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
+          imgUrl: stakenet,
+          content: 'React, Tailwind Css'
+        },
+        {
+          title: "Real Estate Page",
+          icon:  <a href="https://real-estate-app-d1f.pages.dev/" target='blank'><FaExternalLinkAlt /></a>,
+          imgUrl: estate,
+          content: 'React, Typescript, Tailwind Css'
         },
         {
           title: "Getlinked",
-          icon:  <a href="#"><FaLink/></a>,
+          icon:  <a href="#"><FaExternalLinkAlt /></a>,
           imgUrl: getlinked,
+          content: 'React, Typescript, Tailwind Css'
         },
         {
           title: "Simply Recipe",
-          icon:  <a href="https://simply-recipes-mu.vercel.app/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://simply-recipes-mu.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: simplyRecipe,
+          content: 'HTML, Javascript, Css'
         },
         {
-          title: "Ecommerce Page",
-          icon:  <a href="https://ecommerce-iota-fawn.vercel.app/" target='blank'><FaLink/></a>,
+          title: "Sneakers",
+          icon:  <a href="https://ecommerce-iota-fawn.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: ecom,
+          content: 'HTML, Javascript, Css'
         },
         {
           title: "Manage Page",
-          icon:  <a href="https://manage-coral.vercel.app/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://manage-coral.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: manage,
+          content: 'HTML, Javascript, Tailwind Css'
         },
         {
           title: "Loop Studio",
-          icon:  <a href="https://loop-studio-phi.vercel.app/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://loop-studio-phi.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: loopstudio,
+          content: 'HTML, Javascript, Css'
         },
         {
           title: "Sunnyside",
-          icon:  <a href="#" target='blank'><FaLink/></a>,
+          icon:  <a href="#" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: sunnySide,
+          content: 'HTML, Javascript, Css'
         },
       ];
 
 
       const recent = [
         {
+          title: "StakeNet",
+          icon:  <a href="https://cryptoapp-olive.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
+          imgUrl: stakenet,
+          content: 'React, Tailwind Css'
+        },
+        {
           title: "Real Estate Page",
-          icon:  <a href="https://real-estate-app-d1f.pages.dev/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://real-estate-app-d1f.pages.dev/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: estate,
+          content: 'React, Typescript, Tailwind Css'
         },
         {
           title: "Task Manager",
-          icon:  <a href="https://tasks-theta-nine.vercel.app/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://tasks-theta-nine.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: taskManager,
+          content: 'React, Typescript, Tailwind Css'
         },
         {
           title: "Manage Page",
-          icon:  <a href="https://manage-coral.vercel.app/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://manage-coral.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: manage,
+          content: 'HTML, Javascript, Tailwind Css'
         },
         {
           title: "Business Startup",
-          icon:  <a href="#"><FaLink/></a>,
+          icon:  <a href="#"><FaExternalLinkAlt /></a>,
           imgUrl: projImg3,
+          content: 'HTML, Javascript, Css'
         },
       ];
 
@@ -92,28 +117,33 @@ const Projects = () => {
       const previous = [
         {
           title: "Simply Recipe",
-          icon:  <a href="https://simply-recipes-mu.vercel.app/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://simply-recipes-mu.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: simplyRecipe,
+          content: 'HTML, Javascript, Css'
         },
         {
           title: "Loop Studio",
-          icon:  <a href="https://loop-studio-phi.vercel.app/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://loop-studio-phi.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: loopstudio,
+          content: 'HTML, Javascript, Css'
         },
         {
           title: "Ecommerce Page",
-          icon:  <a href="https://ecommerce-iota-fawn.vercel.app/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://ecommerce-iota-fawn.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: ecom,
+          content: 'HTML, Javascript, Css'
         },
         {
           title: "Manage Page",
-          icon:  <a href="https://manage-coral.vercel.app/" target='blank'><FaLink/></a>,
+          icon:  <a href="https://manage-coral.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: manage,
+          content: 'HTML, Javascript, Tailwind Css'
         },
         {
           title: "Sunnyside",
-          icon:  <a href="#" target='blank'><FaLink/></a>,
+          icon:  <a href="#" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: sunnySide,
+          content: 'HTML, Javascript, Css'
         },
       ];
 

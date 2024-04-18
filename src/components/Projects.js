@@ -43,7 +43,7 @@ const Projects = () => {
         },
         {
           title: "Getlinked",
-          icon:  <a href="#"><FaExternalLinkAlt /></a>,
+          icon:  <a href="https://getlinked-pied.vercel.app/"><FaExternalLinkAlt /></a>,
           imgUrl: getlinked,
           content: 'React, Typescript, Tailwind Css'
         },
@@ -120,6 +120,12 @@ const Projects = () => {
           icon:  <a href="https://simply-recipes-mu.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: simplyRecipe,
           content: 'HTML, Javascript, Css'
+        },
+        {
+          title: "Getlinked",
+          icon:  <a href="https://getlinked-pied.vercel.app/"><FaExternalLinkAlt /></a>,
+          imgUrl: getlinked,
+          content: 'React, Typescript, Tailwind Css'
         },
         {
           title: "Loop Studio",

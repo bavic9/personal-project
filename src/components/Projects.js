@@ -12,6 +12,7 @@ import ecom from '../assets/img/ecommerce-product-page.jpg'
 import estate from '../assets/img/estate.png'
 import simplyRecipe from '../assets/img/Simply-recipe design.jpg'
 import sunnySide from '../assets/img/Sunnyside agency.jpg'
+import budget from '../assets/img/budget.jpg'
 import manage from '../assets/img/manage.png'
 import stakenet from '../assets/img/stakenet.png'
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -46,6 +47,12 @@ const Projects = () => {
           icon:  <a href="https://getlinked-pied.vercel.app/"><FaExternalLinkAlt /></a>,
           imgUrl: getlinked,
           content: 'React, Typescript, Tailwind Css'
+        },
+        {
+          title: "Budget App",
+          icon:  <a href="https://budget-app-nu-pied.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
+          imgUrl: budget,
+          content: 'React, Tailwind Css, Bootstrap'
         },
         {
           title: "Simply Recipe",
@@ -98,6 +105,12 @@ const Projects = () => {
           icon:  <a href="https://tasks-theta-nine.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: taskManager,
           content: 'React, Typescript, Tailwind Css'
+        },
+        {
+          title: "Budget App",
+          icon:  <a href="https://budget-app-nu-pied.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
+          imgUrl: budget,
+          content: 'React, Tailwind Css, Bootstrap'
         },
         {
           title: "Manage Page",

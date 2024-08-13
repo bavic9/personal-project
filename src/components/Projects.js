@@ -7,6 +7,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import getlinked from '../assets/img/getlinked-img.jpg'
 import taskManager from '../assets/img/taskManager.png'
+import pxc from '../assets/img/pxc.png'
 import loopstudio from '../assets/img/loopstudio landing page.jpg'
 import ecom from '../assets/img/ecommerce-product-page.jpg'
 import estate from '../assets/img/estate.png'
@@ -28,6 +29,12 @@ const Projects = () => {
           title: "Task Manager",
           icon:  <a href="https://tasks-theta-nine.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: taskManager,
+          content: 'React, Typescript, Tailwind Css'
+        },
+        {
+          title: "PrimeXCapital",
+          icon:  <a href="https://primexcapital.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
+          imgUrl: pxc,
           content: 'React, Typescript, Tailwind Css'
         },
         {
@@ -88,6 +95,12 @@ const Projects = () => {
 
 
       const recent = [
+        {
+          title: "PrimeXCapital",
+          icon:  <a href="https://primexcapital.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
+          imgUrl: pxc,
+          content: 'React, Typescript, Tailwind Css'
+        },
         {
           title: "StakeNet",
           icon:  <a href="https://cryptoapp-olive.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,

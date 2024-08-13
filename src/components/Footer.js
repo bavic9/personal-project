@@ -13,9 +13,9 @@ const Footer = () => {
         </div>
         <div className="col-12 col-sm-6 mt-5 text-center text-sm-end">
           <div className="social-icon">
-            <a href="#" target='blank'><img src={navIcon1} alt="Icon" /></a>
+            <a href="https://www.linkedin.com/in/adeyeye-adebayo-63583b267/" target='blank'><img src={navIcon1} alt="Icon" /></a>
             <a href="https://github.com/bavic9" target='blank'><img src={navIcon2} alt="Icon" /></a>
-            <a href="#" target='blank'><img src={navIcon3} alt="Icon" /></a>
+            <a href="https://x.com/bavic_?s=21&t=HVvZ6f8dvZuAlIpWRG2RIg" target='blank'><img src={navIcon3} alt="Icon" /></a>
           </div>
           <p>Copyright 2024. All Rights Reserved</p>
         </div>

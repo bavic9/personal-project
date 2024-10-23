@@ -63,7 +63,7 @@ const NavBar = () => {
             <a href="https://x.com/bavic_?s=21&t=HVvZ6f8dvZuAlIpWRG2RIg" target='blank'><img src={navIcon3} alt="" /></a>
           </div>
           <div>
-            <button className="vvd"><a href='https://drive.google.com/file/d/10H8IdI8bh5pmqjeSg15RcWZWaoZNLNpg/view?usp=drive_link' target='blank' className='resume'>Resume</a></button>
+            <button className="vvd"><a href='https://drive.google.com/file/d/1bAlicxTw99TZ-j1tJ-0dRfHzIKOuRdwX/view?usp=drive_link' target='blank' className='resume'>Resume</a></button>
           </div>
         </span>
         <button className='nav-btn nav-close-btn' onClick={showNavbar}>

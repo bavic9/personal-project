@@ -70,7 +70,7 @@ const Banner = () => {
 
             <h1 data-aos="fade-up" data-aos-delay="800">{"Hi I'm Adebayo a "} <span className='wrap'>{text}</span></h1>
 
-            <p data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="3000">I'm a multitalented human with over a year of experiences in wide range of Front end developing. I love structure and order and I stand for quality. I'm passionate about creating interactive applications and experiences on the web.</p>
+            <p data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="3000">I'm a multitalented human with over 2 years of experiences in wide range of Front end developing. I love structure and order and I stand for quality. I'm passionate about creating interactive applications and experiences on the web.</p>
 
             <TrackVisibility>
               {({ isVisible }) =>

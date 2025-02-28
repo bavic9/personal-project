@@ -17,6 +17,7 @@ import sunnySide from '../assets/img/Sunnyside agency.jpg'
 import budget from '../assets/img/budget.jpg'
 import manage from '../assets/img/manage.png'
 import stakenet from '../assets/img/stakenet.png'
+import zarrin from '../assets/img/zarrin.JPG'
 import { FaExternalLinkAlt } from "react-icons/fa";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -31,6 +32,12 @@ const Projects = () => {
           icon:  <a href="https://tasks-theta-nine.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: taskManager,
           content: 'React, Typescript, Tailwind Css'
+        },
+        {
+          title: "Zarrin",
+          icon:  <a href="https://zarrin-app.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
+          imgUrl: zarrin,
+          content: 'Next js, MongoDb, Tailwind Css'
         },
         {
           title: "Blog App",
@@ -103,6 +110,12 @@ const Projects = () => {
 
       const recent = [
         {
+          title: "Zarrin",
+          icon:  <a href="https://zarrin-app.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
+          imgUrl: zarrin,
+          content: 'Next js, MongoDb, Tailwind Css'
+        },
+        {
           title: "Blog App",
           icon:  <a href="https://blogger-omega-lovat.vercel.app/" target='blank'><FaExternalLinkAlt /></a>,
           imgUrl: blog,
@@ -144,12 +157,6 @@ const Projects = () => {
           imgUrl: manage,
           content: 'HTML, Javascript, Tailwind Css'
         },
-        {
-          title: "Business Startup",
-          icon:  <a href="#"><FaExternalLinkAlt /></a>,
-          imgUrl: projImg3,
-          content: 'HTML, Javascript, Css'
-        },
       ];
 
       
@@ -165,6 +172,12 @@ const Projects = () => {
           icon:  <a href="https://getlinked-pied.vercel.app/"><FaExternalLinkAlt /></a>,
           imgUrl: getlinked,
           content: 'React, Typescript, Tailwind Css'
+        },
+        {
+          title: "Business Startup",
+          icon:  <a href="#"><FaExternalLinkAlt /></a>,
+          imgUrl: projImg3,
+          content: 'HTML, Javascript, Css'
         },
         {
           title: "Loop Studio",

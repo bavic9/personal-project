@@ -8,6 +8,7 @@ import bootstrap from '../assets/img/bootstrap.png'
 import react from '../assets/img/react.png'
 import nextJs from '../assets/img/nextJs.png'
 import figma from '../assets/img/figma.png'
+import typescript from '../assets/img/typescript.jpeg'
 import sass from '../assets/img/Sass.png'
 import tailwind from '../assets/img/tailwind.svg'
 import wordpress from '../assets/img/wordpress.png'
@@ -68,6 +69,10 @@ const Skils = () => {
                 <div className="item">
                   <img src={javascript} alt="Image" />
                   <h5>Javascript</h5>
+                </div>
+                <div className="item">
+                  <img src={typescript} alt="Image" />
+                  <h5>TypeScript</h5>
                 </div>
                 <div className="item">
                   <img src={tailwind} alt="Image" />
